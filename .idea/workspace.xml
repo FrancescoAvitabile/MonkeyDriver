@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70ae9d8-2510-49df-81ce-3174e0a42e17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarDistance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/is/monkeydrivers/CarAheadSpeedSensor_.java" afterPath="$PROJECT_DIR$/test/is/monkeydrivers/sensors/CarAheadSpeedSensor_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor.java" afterPath="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor.java" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,9 +49,11 @@
       <file leaf-file-name="CarAheadSpeedSensor_.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/is/monkeydrivers/sensors/CarAheadSpeedSensor_.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +61,8 @@
       <file leaf-file-name="CarAheadSpeedSensor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="48" column="86" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="86" />
+            <state relative-caret-position="324">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -106,8 +105,8 @@
         <option value="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor_.java" />
         <option value="$PROJECT_DIR$/test/is/monkeydrivers/CarAheadSpeedSensor_.java" />
         <option value="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarDistance.java" />
-        <option value="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor.java" />
         <option value="$PROJECT_DIR$/test/is/monkeydrivers/sensors/CarAheadSpeedSensor_.java" />
+        <option value="$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor.java" />
       </list>
     </option>
   </component>
@@ -864,7 +863,7 @@
       <workItem from="1480423764996" duration="5972000" />
       <workItem from="1480439990607" duration="17000" />
       <workItem from="1481634665263" duration="5800000" />
-      <workItem from="1482239047400" duration="2248000" />
+      <workItem from="1482239047400" duration="2584000" />
     </task>
     <servers />
   </component>
@@ -878,11 +877,11 @@
     <history-entry file="CarAheadSpeedSensor_ - 2016.12.20 at 13h 50m 10s.xml">
       <configuration name="CarAheadSpeedSensor_" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CarAheadSpeedSensor_ - 2016.12.20 at 13h 56m 09s.xml">
+      <configuration name="CarAheadSpeedSensor_" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CarAheadSpeedSensor__should_calculate_speed_of_car_ahead - 2016.12.20 at 13h 49m 00s.xml">
       <configuration name="CarAheadSpeedSensor_.should_calculate_speed_of_car_ahead" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarAheadSpeedSensor__should_detect_change_of_plates - 2016.12.20 at 13h 42m 11s.xml">
-      <configuration name="CarAheadSpeedSensor_.should_detect_change_of_plates" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CarAheadSpeedSensor__should_detect_change_of_plates_and_return_0_if_car_changed - 2016.12.20 at 13h 48m 45s.xml">
       <configuration name="CarAheadSpeedSensor_.should_detect_change_of_plates_and_return_0_if_car_changed" configurationId="JUnit" />
@@ -901,7 +900,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14037000" />
+    <option name="totallyTimeSpent" value="14373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
@@ -915,7 +914,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33287102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33287102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -970,7 +969,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,17 +1127,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/is/monkeydrivers/sensors/CarAheadSpeedSensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="48" column="86" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="86" />
+        <state relative-caret-position="324">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/is/monkeydrivers/sensors/CarAheadSpeedSensor_.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

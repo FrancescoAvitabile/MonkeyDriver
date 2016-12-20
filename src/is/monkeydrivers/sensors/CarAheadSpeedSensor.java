@@ -8,16 +8,17 @@ class CarAheadSpeedSensor implements Sensor {
     private int busSpeed;
     private CarDistance firstDistanceMeasure;
     private CarDistance secondDistanceMeasure;
-
+    private int calulatedSpeed;
 
     public CarAheadSpeedSensor() {
         firstDistanceMeasure = new CarDistance(0, 0, null);
         secondDistanceMeasure = new CarDistance(0, 0, null);
+        calulatedSpeed = 0;
     }
 
     @Override
     public Object getValue() {
-        return null;
+        return calulatedSpeed;
     }
 
     //    GETTERS
@@ -46,7 +47,12 @@ class CarAheadSpeedSensor implements Sensor {
     }
 
     public int calulateSpeed() {
-        if (!secondDistanceMeasure.getPlate().equals(firstDistanceMeasure.getPlate())) return 0;
-        return (int) (busSpeed + ((secondDistanceMeasure.getDistance() - firstDistanceMeasure.getDistance()) / (secondDistanceMeasure.getTime() - firstDistanceMeasure.getTime())));
+        if (!secondDistanceMeasure.getPlate().equals(firstDistanceMeasure.getPlate())) {
+            calulatedSpeed = 0;
+        } else {
+            calulatedSpeed = (int) (busSpeed + ((secondDistanceMeasure.getDistance() - firstDistanceMeasure.getDistance()) / (secondDistanceMeasure.getTime() - firstDistanceMeasure.getTime())));
+        }
+
+        return calulatedSpeed;
     }
 }
